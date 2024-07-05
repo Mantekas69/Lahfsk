@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffefba, #ffffff) ;
+    font-family: 'Arial', sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+
+.flor{
+    width: 150px;
+    height: 150px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/4/40/Sunflower_sky_backdrop.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+    animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+    from{ transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
+
+.mensaje h1{
+    color: #e2a200;
+    font-size: 2.5em;
+}
+
+.mensaje p{
+    color: #6b6b6b;
+    font-size: 1.2em;
+}
